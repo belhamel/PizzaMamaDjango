@@ -1,0 +1,22 @@
+body{
+     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("images/main_background.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     color: white;
+     font-family: Arial;
+}
+.centred{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+a {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size : 18px;
+    margin-top: 30px;
+}
